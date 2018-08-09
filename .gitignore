@@ -1,3 +1,20 @@
+*.iml
+.gradle
+/local.properties
+
+# Following were Android Studio's default entries (I guess)
+#/.idea/libraries
+#/.idea/modules.xml
+#/.idea/workspace.xml
+
+# This does above and what above was not doing
+/.idea
+
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
 # Built application files
 *.apk
 *.ap_
