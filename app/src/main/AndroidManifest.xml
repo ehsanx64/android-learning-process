@@ -22,4 +22,9 @@
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- We need above permission for following functionalities:
+        - Accessing and loading a url from the Web
+    -->
+
 </manifest>
